@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&display=swap');
+*{
+    text-align: center;
+}
+
+@media (min-width: 430px) and (max-width: 1600px){
+    body{
+        background-image: url(./photo/army.jpg);
+        background-size: contain;
+}
+}
+.div{
+    max-height: 100pxpx;
+    max-width: 100pxpx;
+    background-color: yellow;
+    font-family: 'Caprasimo', serif;
+}
+p{
+    color: darkslateblue;
+}
+h1{
+    font-family: 'Moirai One', system-ui;
+    color: darkslateblue;
+    font-size: 9rem;
+}
+#h{
+    font-family: 'Lobster', sans-serif;
+    color: yellow;
+    border: inset 10px rgba(120, 120, 235, 0.952);
+    width: fit-content;
+    font-size: 4rem;
+}
+pre{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'Rubik Doodle Triangles', system-ui;
+    font-size: 2rem;
+    color: darkslateblue;
+}
+h2{
+    font-family: 'Lobster', sans-serif;
+    color: yellow;
+    border: inset 10px rgba(120, 120, 235, 0.952);
+    width: fit-content;
+    font-size: 2rem;
+}
+#a{
+    font-family: 'Rubik Doodle Triangles', system-ui;
+    font-size: 5rem;
+    color: darkslateblue;
+}
